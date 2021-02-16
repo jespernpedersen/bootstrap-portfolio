@@ -1,0 +1,28 @@
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+    }
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.masthead {
+    padding-top: calc(6rem + 104px);
+    padding-bottom: 6rem;
+}
+
+.masthead-avatar {
+    width: 15rem;
+}
+
+.bg-primary h1, 
+.bg-primary p {
+    color: white;
+}
+
+.subheading {
+    font-size: 1.3rem;
+}
