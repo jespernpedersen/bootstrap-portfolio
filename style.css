@@ -5,6 +5,12 @@
     }
 }
 
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 .navbar-nav {
     flex-direction: row;
 }
@@ -20,6 +26,7 @@
 
 .subheading {
     font-size: 1.3rem;
+    font-weight: light;
 }
 
 .page-section {
@@ -39,4 +46,24 @@ footer {
 
 .navbar-collapse {
     justify-content: flex-end;
+}
+.bg-primary {
+    background-color: #007bff;
+    color: #FFF;
+}
+.bg-dark {
+    background-color: #343a40;
+    color: #FFF;
+}
+
+.bg-dark ul a {
+    color: #FFF;
+}
+
+.top-bar ul {
+    background-color: transparent;
+}
+
+.top-bar-section ul li {
+    display: inline-block;
 }
