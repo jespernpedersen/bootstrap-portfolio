@@ -10,7 +10,7 @@
 }
 
 .masthead {
-    padding-top: calc(6rem + 104px);
+    padding-top: calc(6rem);
     padding-bottom: 6rem;
 }
 
@@ -18,11 +18,25 @@
     width: 15rem;
 }
 
-.bg-primary h1, 
-.bg-primary p {
-    color: white;
-}
-
 .subheading {
     font-size: 1.3rem;
+}
+
+.page-section {
+    padding: 6rem 0;
+}
+
+h2 {
+    margin-bottom: 40px;
+}
+
+.img-rounded {
+    border-radius: 16px;
+}
+footer {
+    padding: 20px 0;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
 }
